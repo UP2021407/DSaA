@@ -23,6 +23,3 @@ function insertionSort(inputArr){
         
 }
 
-let inputArr = [5, 2, 4, 6, 1, 3];
-insertionSort(inputArr);
-console.log(inputArr);
