@@ -1,7 +1,7 @@
 function insertionSort(inputArr){
-    let arrayLength = inputArr.length;
+    let n = inputArr.length;
     // Dictating the length of the array to a variable so that we are able to traverse the array.
-        for (let i = 1; i < navigator; i++){
+        for (let i = 1; i < n; i++){
         // For loop allows it to run for the minimum required number of steps to correct the array
 
             let lastElement = inputArr[i];
@@ -22,3 +22,7 @@ function insertionSort(inputArr){
         // This returns the array for checking
         
 }
+
+let inputArr = [5, 2, 4, 6, 1, 3];
+insertionSort(inputArr);
+console.log(inputArr);
